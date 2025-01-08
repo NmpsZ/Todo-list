@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(
+        rgba(18, 18, 18, 0.9), 
+        rgba(30, 30, 30, 0.9)
+    ), 
+    url('../pic/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .card {
+    background-color: rgba(30, 30, 30, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+
+  .card-header {
+    background-color: rgba(42, 42, 42, 1);
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .btn-primary {
+    background-color: #6200ea;
+    border-color: #6200ea;
+  }
+
+  .btn-primary:hover {
+    background-color: #3700b3;
+    border-color: #3700b3;
+  }
+
+  .form-control {
+    background-color: rgba(42, 42, 42, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
+  .form-control:focus {
+    background-color: rgba(42, 42, 42, 1);
+    color: #ffffff;
+    border-color: #6200ea;
+    box-shadow: none;
+  }
+
+  .todo-list {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+
+  .todo-item {
+    background-color: rgba(42, 42, 42, 0.8);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .todo-item h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .todo-item p {
+    font-size: 0.9rem;
+    color: #bbbbbb;
+  }
+
+  .group-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .delete-btn {
+    background-color: #dd0f0f;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .delete-btn:hover {
+    background-color: #d14949;
+  }
+
+  .edit-btn {
+    background-color: #e7850d;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .edit-btn:hover {
+    background-color: #f7ae55;
+  }
